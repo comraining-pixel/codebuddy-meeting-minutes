@@ -2,14 +2,14 @@
 # =============================================================================
 # Meeting Minutes Skill — 一键安装脚本
 # =============================================================================
-# 用法: curl -fsSL https://raw.githubusercontent.com/yannxu/codebuddy-meeting-minutes/main/install.sh | bash
+# 用法: curl -fsSL https://raw.githubusercontent.com/comraining-pixel/codebuddy-meeting-minutes/main/install.sh | bash
 # =============================================================================
 
 set -euo pipefail
 
 SKILL_NAME="meeting-minutes"
 SKILL_DIR="${HOME}/.codebuddy/skills/${SKILL_NAME}"
-REPO_URL="https://github.com/yannxu/codebuddy-meeting-minutes.git"
+REPO_URL="https://github.com/comraining-pixel/codebuddy-meeting-minutes.git"
 TMP_DIR=$(mktemp -d)
 
 echo "🎙️ Meeting Minutes Skill 安装器"

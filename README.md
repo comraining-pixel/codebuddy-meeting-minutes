@@ -20,7 +20,7 @@
 在 CodeBuddy 中直接说：
 
 ```
-从 https://github.com/yannxu/codebuddy-meeting-minutes 安装 skill
+从 https://github.com/comraining-pixel/codebuddy-meeting-minutes 安装 skill
 ```
 
 CodeBuddy 会自动完成发现、安全扫描和安装。
@@ -29,7 +29,7 @@ CodeBuddy 会自动完成发现、安全扫描和安装。
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yannxu/codebuddy-meeting-minutes.git /tmp/codebuddy-meeting-minutes
+git clone https://github.com/comraining-pixel/codebuddy-meeting-minutes.git /tmp/codebuddy-meeting-minutes
 
 # 复制 skill 到 CodeBuddy 目录
 cp -r /tmp/codebuddy-meeting-minutes/skills/meeting-minutes ~/.codebuddy/skills/meeting-minutes
@@ -41,7 +41,7 @@ rm -rf /tmp/codebuddy-meeting-minutes
 ### 方式三：一键脚本安装
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yannxu/codebuddy-meeting-minutes/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/comraining-pixel/codebuddy-meeting-minutes/main/install.sh | bash
 ```
 
 ## 🚀 使用方式
